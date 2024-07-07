@@ -1,0 +1,12 @@
+[http.server]
+addr = "127.0.0.1:3000"
+
+[http.cors]
+allowed_origins = ["*"]
+
+[db]
+url = "postgres://postgres:postgres@localhost:5432/postgres"
+
+[jwt]
+secret = "my_secret_key"
+expiration_time = "1h"
